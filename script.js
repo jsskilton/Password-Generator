@@ -93,8 +93,8 @@ function getPasswordOptions() {
   var passwordLength = prompt("Enter the password length (between 8-128 characters):");
 
   // check password length
-  if (passwordLength < 8 || passwordLength > 128) {
-    alert("Warning: password length must be between 8 and 128 characters. No password has been generated");
+  if (isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
+    alert("Warning: please enter a valid number between 8 and 128 characters. No password has been generated");
     return;
   }
 
