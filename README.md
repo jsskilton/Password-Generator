@@ -20,7 +20,7 @@ Follow the URL link provided: https://jsskilton.github.io/Password-Generator/
 
 Click 'Generate Password' and then answer the resulting prompts to generate a random password. Note that no password will be generated if a password length outside the required range is selected.
 
-![screenshot of webpage](assets/images/screenshot.JPG)
+![screenshot of webpage](screenshot.JPG)
 
 ## Credits
 
